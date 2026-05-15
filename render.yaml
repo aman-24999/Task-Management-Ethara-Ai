@@ -18,7 +18,7 @@ services:
           property: url
 
   # Frontend Static Site
-  - type: static
+  - type: web
     name: task-management-frontend
     env: static
     rootDir: frontend
